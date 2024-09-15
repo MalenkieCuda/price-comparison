@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Comparison</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        select, button {
+            margin: 10px;
+            padding: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Product Price Comparison</h1>
+    <p>Select a product to compare prices:</p>
+    <select id="product">
+        <option value="Barbie Dreamhouse Playset">Barbie Dreamhouse Playset</option>
+        <option value="Hot Wheels Monster Truck Tiger Shark">Hot Wheels Monster Truck Tiger Shark</option>
+        <option value="Nerf N-Strike Elite Disruptor Blaster">Nerf N-Strike Elite Disruptor Blaster</option>
+        <option value="Fisher-Price Laugh & Learn Smart Stages Puppy">Fisher-Price Laugh & Learn Smart Stages Puppy</option>
+        <option value="Play-Doh Kitchen Creations Ultimate Ice Cream Truck">Play-Doh Kitchen Creations Ultimate Ice Cream Truck</option>
+        <option value="Mattel Uno Showdown Card Game">Mattel Uno Showdown Card Game</option>
+        <option value="Melissa & Doug Deluxe Standing Art Easel">Melissa & Doug Deluxe Standing Art Easel</option>
+        <option value="LEGO Star Wars Millennium Falcon">LEGO Star Wars Millennium Falcon</option>
+        <option value="Playmobil Family Fun Camping Adventure">Playmobil Family Fun Camping Adventure</option>
+    </select>
+    <button onclick="comparePrices()">Compare Prices</button>
+    <div id="results"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
